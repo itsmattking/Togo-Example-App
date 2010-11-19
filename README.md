@@ -10,7 +10,14 @@ This is just to demonstrate how you can configure your DataMapper models for use
 * dm-core (1.0.2 preferred)
 * dm-migrations
 * dm-sqlite-adapter
+* rack
 * togo
+
+Togo currently supports these Ruby HTTP servers, and needs at least one to run:
+
+* thin
+* mongrel
+* webrick
 
 ## How to run the app
 
