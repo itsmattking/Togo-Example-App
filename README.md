@@ -25,4 +25,4 @@ Togo will start up on port 8080. Navigate to the admin at
 No content is included, but you can create it through the admin. A set of example models are included, see
 the models/ folder.
 
-More information about Togo at http://github.com/mattking17/Togo
+More information about Togo at [the main Togo repository](http://github.com/mattking17/Togo)
