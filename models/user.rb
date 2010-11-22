@@ -1,6 +1,5 @@
 class User
   include DataMapper::Resource
-  # uncomment to include User in Togo Admin 
   include Togo::DataMapper::Model
 
   attr_accessor :authenticated

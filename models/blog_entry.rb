@@ -19,7 +19,7 @@ class BlogEntry
 
   configure_property :title, :label => "Title (keep it short and sweet)"
   configure_property :body, :template => File.join(SITE_ROOT, 'views', 'body.erb')
-  configure_property :category_list, :label => 'Categories'
+  configure_property :category_name, :label => 'Category'
 
   def category_name
     category.name rescue '-'
